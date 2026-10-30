@@ -1,0 +1,4 @@
+1..13
+not ok - HC_TERMINAL_ID=t3 must not adopt a parent (missing: '--no-parent')
+--- output ---
+HC_SESSION=fmtest HC_SOCKET=run--bg--json--parentt3--outlive-parent--no-notify--cwd/proj--labelfirstmate.task=fm-b-t3--labelfirstmate.home=firstmate-963ba506--labelherdr.space=space-other--labelherdr.tab=firstmate-963ba506-fm-b-t3

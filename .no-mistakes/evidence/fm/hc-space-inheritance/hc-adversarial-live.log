@@ -1,0 +1,24 @@
+stand-in Firstmate terminal: fmA3655287:t1 ({"pid":3655400,"state":"live","labels":{"herdr.space":"fm-space"}})
+  foreground while wrapper runs: {"pid":3655400,"fg":3656323}
+PASS - 1 wrapper holding foreground: child of Firstmate in its space (got: t1 fm-space)
+PASS - 2 FM_HC_SPACE wins over caller space, parent kept (got: t1 chosen)
+PASS - 3 daemonized descendant with inherited HC_TERMINAL_ID: no parent, home space (got: none fm-firstmate-e25f7f5d)
+PASS - 3b inherited id inside a tmux server started in the terminal: no parent, home space (got: none fm-firstmate-e25f7f5d)
+  core B terminal: fmB3655287:t1 (core A has t1 live with same-style address)
+PASS - 4 id from another session (address collides with a live A terminal): no parent (got: none fm-firstmate-e25f7f5d)
+PASS - 5 unknown HC_TERMINAL_ID: no parent, no error (got: none fm-firstmate-e25f7f5d)
+PASS - 5b live non-ancestor terminal id: no parent, home space (got: none fm-firstmate-e25f7f5d)
+PASS - 6a Firstmate terminal state after close (got: finished)
+PASS - 6 child t2 still live after its Firstmate terminal closed (got: live)
+PASS - 6 child t3 still live after its Firstmate terminal closed (got: live)
+PASS - 6b stale id of the closed Firstmate terminal: no parent (got: none fm-firstmate-e25f7f5d)
+--- core A listing
+{"address":"t2","parent":"t1","state":"live","space":null,"tab":null}
+{"address":"t3","parent":"t1","state":"live","space":null,"tab":null}
+{"address":"t4","parent":null,"state":"live","space":null,"tab":null}
+{"address":"t5","parent":null,"state":"live","space":null,"tab":null}
+{"address":"t6","parent":null,"state":"live","space":null,"tab":null}
+{"address":"t7","parent":null,"state":"live","space":null,"tab":null}
+{"address":"t8","parent":null,"state":"live","space":null,"tab":null}
+{"address":"t9","parent":null,"state":"live","space":null,"tab":null}
+FAILS=0

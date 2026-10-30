@@ -1,0 +1,15 @@
+1..13
+ok - hc: explicit-only, spawn-capable, with its tool set
+ok - hc: create_task starts an independent labeled terminal and refuses a duplicate
+ok - hc: inside Firstmate's own hc terminal a task joins its space as a child; a non-ancestor or unknown id is ignored
+ok - hc: fm-control interrupt delivers the harness's interrupt key
+ok - hc: another task's, another home's, or an unlabeled terminal gets no input and no close
+ok - hc: an empty session never falls through to the ambient core
+ok - hc: an inherited HC_SOCKET never overrides the session pin
+ok - hc: agent_state maps foreground, finished, not_found and core errors onto the shared vocabulary
+ok - hc: agent_state reads a shell wrapper's process group before calling it dead
+ok - hc: kill ends and removes the terminal and refuses when it survives
+ok - hc: teardown's expected label refuses another task's terminal and closes the matching one
+ok - hc: capture, visible capture, and current path read the recorded terminal
+ok - hc: endpoint validation requires window to equal hc_session:hc_terminal
+FM_TEST_COMPLETE
