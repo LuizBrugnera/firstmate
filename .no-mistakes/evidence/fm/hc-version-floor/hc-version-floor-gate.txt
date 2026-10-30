@@ -1,0 +1,52 @@
+--- hc --version -> __real__
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
+--- hc --version -> hc\ 0.1.12
+  container_ensure rc=1 output: error: hc 'hc 0.1.12' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> hc\ 0.0.99
+  container_ensure rc=1 output: error: hc 'hc 0.0.99' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> hc
+  container_ensure rc=1 output: error: hc 'hc' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> ''
+  container_ensure rc=1 output: error: hc 'unknown' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> hc\ 0.1.x
+  container_ensure rc=1 output: error: hc 'hc 0.1.x' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> hc\ 0.1.12-rc.1
+  container_ensure rc=1 output: error: hc 'hc 0.1.12-rc.1' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> __fail__
+  container_ensure rc=1 output: error: hc 'unknown' is older than 0.1.13, the oldest herdr-core this backend was verified on, or its version is unreadable; update it with 'hc update'
+  probe env: HC_SOCKET=<unset>
+  core socket created: 
+--- hc --version -> hc\ 0.1.13
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
+--- hc --version -> hc\ 0.1.15-rc.1
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
+--- hc --version -> hc\ 0.2.0+build.7
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
+--- hc --version -> hc\ 1.0
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
+--- hc --version -> hc\ 0.1.13.1
+  container_ensure rc=0 output: fmv3188208
+  probe env: HC_SOCKET=<unset>
+  core socket created: yes
