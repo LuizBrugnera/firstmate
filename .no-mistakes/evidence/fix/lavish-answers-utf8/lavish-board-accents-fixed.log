@@ -1,0 +1,22 @@
+== [fixed2] lavish session key: 974c0fb69affac67
+== source id: lavish-974c0fb69affac67
+== board POST: {"status":"queued","pending_prompts":3,"chat":[{"role":"user","kind":"annotation","text":"Context data: {\"schema\": \"f
+== procevent start
+reconciles-fed: lavish-974c0fb69affac67
+answers-fed: lavish-974c0fb69affac67
+not-autohandled: lavish-974c0fb69affac67 (left for the handler; still unacknowledged)
+retired: lavish-974c0fb69affac67 (adapter classified the captured result terminal)
+captured: /tmp/lavish-utf8.H2xsDb/homes-fixed2/h/state/procevent-inbox/lavish-974c0fb69affac67.1.result
+answered: sample-chat-call
+== tasks-axi show sample-accent-call
+  state: done
+\nCaptain answered this call through the captured result lavish-974c0fb69affac67 sequence 1.\nTask: sample-accent-call\nAnswer: não, só depois da revisão — ação já é ótima, coração\nAnswer as shown to the captain: Decisão: não, só depois da revisão"
+== tasks-axi show sample-latin-call
+  state: done
+\nCaptain answered this call through the captured result lavish-974c0fb69affac67 sequence 1.\nTask: sample-latin-call\nAnswer: sim, mas só após a revisão; coração e ação\nAnswer as shown to the captain: Opção: sim"
+== tasks-axi show sample-arrow-call
+  state: done
+\nCaptain answered this call through the captured result lavish-974c0fb69affac67 sequence 1.\nTask: sample-arrow-call\nAnswer: revisar → depois, pôr ê/õ/ç\nAnswer as shown to the captain: Ação: revisar → depois"
+== tasks-axi show sample-chat-call
+  state: done
+\nnão, só depois da revisão — ação já é ótima, coração"
